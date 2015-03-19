@@ -54,6 +54,6 @@ $timing-fuction: cubic-bezier(.1,.5,.1,1) !default; // Inspired by @c2prods
 // Borders
 // --------------------------------------------------
 
-$border-default-width: .058823529em;
+$border-default-width: 1px;
 $border-default: $border-default-width solid #ddd;
 $border-radius: .352941176em !default;

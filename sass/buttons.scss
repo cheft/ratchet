@@ -16,7 +16,7 @@
   vertical-align: top;
   cursor: pointer;
   background-color: $chrome-color;
-  border: .058823529em solid #ccc;
+  border: 1px solid #ccc;
   border-radius: .176470588em;
 
   // Active & filled button styles
@@ -41,13 +41,13 @@
 .btn-primary {
   color: #fff;
   background-color: $primary-color;
-  border: .058823529em solid $primary-color;
+  border: 1px solid $primary-color;
 
   &:active,
   &.active {
     color: #fff;
     background-color: darken($primary-color, 10%);
-    border: .058823529em solid darken($primary-color, 10%);
+    border: 1px solid darken($primary-color, 10%);
   }
 }
 
@@ -55,13 +55,13 @@
 .btn-positive {
   color: #fff;
   background-color: $positive-color;
-  border: .058823529em solid $positive-color;
+  border: 1px solid $positive-color;
 
   &:active,
   &.active {
     color: #fff;
     background-color: darken($positive-color, 10%);
-    border: .058823529em solid darken($positive-color, 10%);
+    border: 1px solid darken($positive-color, 10%);
   }
 }
 
@@ -69,13 +69,13 @@
 .btn-negative {
   color: #fff;
   background-color: $negative-color;
-  border: .058823529em solid $negative-color;
+  border: 1px solid $negative-color;
 
   &:active,
   &.active {
     color: #fff;
     background-color: darken($negative-color, 10%);
-    border: .058823529em solid darken($negative-color, 10%);
+    border: 1px solid darken($negative-color, 10%);
   }
 }
 

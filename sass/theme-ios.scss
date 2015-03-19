@@ -68,7 +68,7 @@ p {
 .btn {
   color: $default-color;
   background-color: $chrome-color;
-  border: .058823529em solid $default-color;
+  border: 1px solid $default-color;
   @include transition(all);
   @include transition-duration(.2s);
   @include transition-timing-function(linear);
@@ -89,12 +89,12 @@ p {
 .btn-primary {
   color: #fff;
   background-color: $primary-color;
-  border: .058823529em solid $primary-color;
+  border: .1px solid $primary-color;
 
   &:active,
   &.active {
     background-color: darken($primary-color, 10%);
-    border: .058823529em solid darken($primary-color, 10%);
+    border: .1px solid darken($primary-color, 10%);
   }
 }
 
@@ -102,12 +102,12 @@ p {
 .btn-positive {
   color: #fff;
   background-color: $positive-color;
-  border: .058823529em solid $positive-color;
+  border: .1px solid $positive-color;
 
   &:active,
   &.active {
     background-color: darken($positive-color, 10%);
-    border: .058823529em solid darken($positive-color, 10%);
+    border: .1px solid darken($positive-color, 10%);
   }
 }
 
@@ -115,12 +115,12 @@ p {
 .btn-negative {
   color: #fff;
   background-color: $negative-color;
-  border: .058823529em solid $negative-color;
+  border: .1px solid $negative-color;
 
   &:active,
   &.active {
     background-color: darken($negative-color, 10%);
-    border: .058823529em solid darken($negative-color, 10%);
+    border: .1px solid darken($negative-color, 10%);
   }
 }
 
@@ -345,7 +345,7 @@ input[type="color"],
 .input-group {
   height: 2.352941176em;
   padding: .588235294em .882352941em;
-  border: .058823529em solid rgba(0, 0, 0, .2);
+  border: .1px solid rgba(0, 0, 0, .2);
 }
 
 // Rounded search input
@@ -401,7 +401,7 @@ textarea,
 
 .segmented-control {
   background-color: transparent;
-  border: .058823529em solid $default-color;
+  border: 1px solid $default-color;
 
   .control-item {
     color: $default-color;
@@ -422,7 +422,7 @@ textarea,
 //
 // Primary
 .segmented-control-primary {
-  border: .058823529em solid $primary-color;
+  border: 1px solid $primary-color;
 
   .control-item {
     color: $primary-color;
@@ -440,7 +440,7 @@ textarea,
 
 // Positive
 .segmented-control-positive {
-  border: .058823529em solid $positive-color;
+  border: 1px solid $positive-color;
 
   .control-item {
     color: $positive-color;
@@ -458,7 +458,7 @@ textarea,
 
 // Negative
 .segmented-control-negative {
-  border: .058823529em solid $negative-color;
+  border: 1px solid $negative-color;
 
   .control-item {
     color: $negative-color;
@@ -494,7 +494,7 @@ textarea,
 
 // Popovers with `bar-nav`
 .popover .bar-nav {
-  border-bottom: .058823529em solid rgba(0,0,0,.15);
+  border-bottom: 1px solid rgba(0,0,0,.15);
 }
 
 // Popovers with `table-views`
@@ -528,7 +528,7 @@ textarea,
 
   // Sliding handle
   .toggle-handle {
-    border: .058823529em solid rgba(0, 0, 0, .2);
+    border: 1px solid rgba(0, 0, 0, .2);
     -webkit-transition-property: -webkit-transform, border, width;
        -moz-transition-property: -moz-transform, border, width;
             transition-property: transform, border, width;
