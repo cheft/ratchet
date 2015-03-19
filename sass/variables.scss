@@ -6,10 +6,10 @@
 // Type
 // --------------------------------------------------
 $font-family-default: "Helvetica Neue", Helvetica, sans-serif !default;
-$font-size-default: 17px !default;
+$font-size-default: 1em !default;
 $font-weight: 500 !default;
 $font-weight-light: 400 !default;
-$line-height-default: 21px !default;
+$line-height-default: 1.235294118em !default;
 
 
 // Colors
@@ -28,9 +28,9 @@ $negative-color: #d9534f !default;
 // Bars
 // --------------------------------------------------
 
-$bar-base-height:  44px !default;
-$bar-tab-height:   50px !default;
-$bar-side-spacing: 10px !default;
+$bar-base-height:  2.588235294em !default;
+$bar-tab-height:   2.941176471em !default;
+$bar-side-spacing: .588235294em !default;
 
 
 // Cards
@@ -42,7 +42,7 @@ $card-bg: #fff !default;
 // Buttons
 // --------------------------------------------------
 
-$button-font-size: 12px !default;
+$button-font-size: .705882353em !default;
 
 
 // Transitions
@@ -54,6 +54,6 @@ $timing-fuction: cubic-bezier(.1,.5,.1,1) !default; // Inspired by @c2prods
 // Borders
 // --------------------------------------------------
 
-$border-default-width: 1px;
+$border-default-width: .058823529em;
 $border-default: $border-default-width solid #ddd;
-$border-radius: 6px !default;
+$border-radius: .352941176em !default;

@@ -45,7 +45,7 @@
     display: inline-block;
     font-family: Ratchicons;
     font-size: inherit;
-    line-height: 1;
+    line-height: 1em;
     color: #bbb;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
@@ -54,11 +54,11 @@
 }
 .navigate-left:after,
 .push-left:after {
-  left: 15px;
+  left: .882352941em;
   content: '\e822';
 }
 .navigate-right:after,
 .push-right:after{
-  right: 15px;
+  right: .882352941em;
   content: '\e826';
 }

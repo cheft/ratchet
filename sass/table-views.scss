@@ -5,7 +5,7 @@
 .table-view {
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: .882352941em;
   list-style: none; // Remove usual bullet styles from table view
   background-color: #fff;
   border-top: $border-default;
@@ -15,7 +15,7 @@
 // Pad each table view item and add dividers
 .table-view-cell {
   position: relative;
-  padding: 11px 65px 11px 15px;
+  padding: .647058824em 3.823529412em .647058824em .882352941em;
   overflow: hidden;
   border-bottom: $border-default;
 
@@ -28,7 +28,7 @@
     position: relative;
     display: block;
     padding: inherit;
-    margin: -11px -65px -11px -15px; // Make the entire list item tappable.
+    margin: -.647058824em -3.823529412em -.647058824em -.882352941em; // Make the entire list item tappable.
     overflow: hidden;
     color: inherit;
 
@@ -46,10 +46,10 @@
 // --------------------------------------------------
 
 .table-view-divider {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 15px;
-  margin-top: -1px; // Hides the border of the previous list item
+  padding-top: .352941176em;
+  padding-bottom: .352941176em;
+  padding-left: .882352941em;
+  margin-top: -.058823529em; // Hides the border of the previous list item
   margin-left: 0;
   font-weight: $font-weight;
   color: #999;
@@ -68,10 +68,10 @@
 }
 .table-view .media-object {
   &.pull-left {
-    margin-right: 10px;
+    margin-right: .588235294em;
   }
   &.pull-right {
-    margin-left: 10px;
+    margin-left: .588235294em;
   }
 }
 
@@ -85,7 +85,7 @@
   > .toggle {
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: .882352941em;
     @include transform(translateY(-50%));
   }
 
@@ -97,12 +97,12 @@
     > .btn,
     > .badge,
     > .toggle {
-      right: 35px;
+      right: 2.058823529em;
     }
   }
 }
 
 // If the table view is the first component, give it extra margin on top.
 .content > .table-view:first-child {
-  margin-top: 15px;
+  margin-top: .882352941em;
 }

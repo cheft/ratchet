@@ -6,20 +6,20 @@
   position: relative;
   display: table;
   overflow: hidden;
-  font-size: 12px;
+  font-size: .705882353em;
   font-weight: $font-weight-light;
   background-color: $chrome-color;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  border: .058823529em solid #ccc;
+  border-radius: .176470588em;
 
   // Section within controller
   .control-item {
     display: table-cell;
     width: 1%;
-    padding-top: 6px;
-    padding-bottom: 7px;
+    padding-top: .352941176em;
+    padding-bottom: .411764706em;
     overflow: hidden;
-    line-height: 1;
+    line-height: 1em;
     color: #333;
     text-align: center;
     text-overflow: ellipsis;

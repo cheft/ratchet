@@ -29,22 +29,22 @@ input[type="url"],
 input[type="tel"],
 input[type="color"] {
   width: 100%;
-  height: 35px;
+  height: 2.058823529em;
   -webkit-appearance: none;
-  padding: 0 15px;
-  margin-bottom: 15px;
+  padding: 0 .882352941em;
+  margin-bottom: .882352941em;
   line-height: $line-height-default;
   background-color: #fff;
   border: $border-default;
-  border-radius: 3px;
+  border-radius: .176470588em;
   outline: none;
 }
 
 // Rounded search input
 input[type="search"] {
-  padding: 0 10px;
-  font-size: 16px;
-  border-radius: 20px;
+  padding: 0 .588235294em;
+  font-size: .941176471em;
+  border-radius: 1.176470588em;
   // Override content-box in normalize
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -62,9 +62,9 @@ textarea {
 // Style select button to look like part of the Ratchet's style
 select {
   height: auto;
-  font-size: 14px;
+  font-size: .823529412em;
   background-color: #f8f8f8;
-  @include box-shadow(inset 0 1px 1px rgba(0, 0, 0, .1));
+  @include box-shadow(inset 0 .058823529em .058823529em rgba(0, 0, 0, .1));
 }
 
 
@@ -92,7 +92,7 @@ select {
 // To use labels with input groups, wrap a label and an input in an .input-row
 .input-row {
   overflow: hidden;
-  height: 35px; // Matches the height of inputs.
+  height: 2.058823529; // Matches the height of inputs.
   border-bottom: $border-default;
 }
 
@@ -100,9 +100,9 @@ select {
 .input-row label {
   float: left;
   width: 35%;
-  padding: 8px 15px;
+  padding: .470588235em .882352941em;
   font-family: $font-family-default;
-  line-height: 1.1; // Put the text on the baseline.
+  line-height: 1.1em; // Put the text on the baseline.
 }
 
 // Actual inputs float to right of labels and also have a set percentage

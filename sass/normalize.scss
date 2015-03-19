@@ -107,7 +107,7 @@ a:hover {
 //
 
 abbr[title] {
-  border-bottom: 1px dotted;
+  border-bottom: .058823529em dotted;
 }
 
 //
@@ -201,7 +201,7 @@ svg:not(:root) {
 //
 
 figure {
-  margin: 1em 40px;
+  margin: 1em 2.352941176em;
 }
 
 //
@@ -377,8 +377,8 @@ input[type="search"]::-webkit-search-decoration {
 //
 
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
+  border: .058823529em solid #c0c0c0;
+  margin: 0 .117647059em;
   padding: 0.35em 0.625em 0.75em;
 }
 

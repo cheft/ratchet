@@ -4,31 +4,31 @@
 
 .popover {
   position: fixed;
-  top: 55px;
+  top: 3.235294118em;
   left: 50%;
   z-index: 20;
   display: none;
-  width: 280px;
-  margin-left: -140px;
+  width: 16.470588235em;
+  margin-left: -8.235294118em;
   background-color: $chrome-color;
   border-radius: $border-radius;
   opacity: 0;
-  @include box-shadow(0 0 15px rgba(0, 0, 0, .1));
-  @include transform(translate3d(0, -15px, 0));
+  @include box-shadow(0 0 .882352941em rgba(0, 0, 0, .1));
+  @include transform(translate3d(0, -.882352941em, 0));
   @include transition(all .25s linear);
 
   // Caret on top of popover using CSS triangles (thanks to @chriscoyier for solution)
   &:before {
     position: absolute;
-    top: -15px;
+    top: -.882352941em;
     left: 50%;
     width: 0;
     height: 0;
-    margin-left: -15px;
+    margin-left: -.882352941em;
     content: '';
-    border-right: 15px solid transparent;
-    border-bottom: 15px solid $chrome-color;
-    border-left: 15px solid transparent;
+    border-right: .882352941em solid transparent;
+    border-bottom: .882352941em solid $chrome-color;
+    border-left: .882352941em solid transparent;
   }
 
   // Popover transition
@@ -62,7 +62,7 @@
 // --------------------------------------------------
 
 .popover .btn-block {
-  margin-bottom: 5px;
+  margin-bottom: .294117647em;
 
   // Remove extra margin on bottom of last button
   &:last-child {
@@ -76,8 +76,8 @@
 
 .popover .bar-nav {
   border-bottom: $border-default;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: .705882353em;
+  border-top-right-radius: .705882353em;
   @include box-shadow(none);
 }
 
@@ -86,7 +86,7 @@
 // --------------------------------------------------
 
 .popover .table-view {
-  max-height: 300px;
+  max-height: 17.647058824em;
   margin-bottom: 0;
   overflow: auto;
   -webkit-overflow-scrolling: touch;

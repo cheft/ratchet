@@ -4,12 +4,12 @@
 
 .badge {
   display: inline-block;
-  padding: 2px 9px 3px;
-  font-size: 12px;
-  line-height: 1;
+  padding: .117647059em .529411765em .176470588em;
+  font-size: .705882353em;
+  line-height: 1em;
   color: #333;
   background-color: rgba(0,0,0,.15);
-  border-radius: 100px;
+  border-radius: 5.882352941em;
 
   // Inverted badges have no background.
   &.badge-inverted {

@@ -109,22 +109,22 @@
     .badge {
       vertical-align: top;
       position: absolute;
-      top: 3px;
+      top: .176470588em;
       left: 50%;
     }
 
     // Tab icon
     .icon {
-      top: 3px;
-      width: 24px;
-      height: 24px;
+      top: .176470588em;
+      width: 1.411764706em;
+      height: 1.411764706em;
       padding-top: 0;
       padding-bottom: 0;
 
       // Make the text smaller if it's used with an icon
       ~ .tab-label {
         display: block;
-        font-size: 11px;
+        font-size: .647058824em;
       }
     }
   }
@@ -135,9 +135,9 @@
 
 .bar .btn {
   position: relative;
-  top: 7px;
+  top: .411764706em;
   z-index: 20; // Position the buttons on top of .title
-  padding: 6px 12px 7px;
+  padding: .352941176em .705882353em 411764706em;
   margin-top: 0;
   font-weight: $font-weight-light;
 
@@ -154,7 +154,7 @@
 .bar .btn-link {
   top: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: .941176471em;
   line-height: $bar-base-height;
   color: $primary-color;
   border: 0;
@@ -169,10 +169,10 @@
 //
 // Add proper padding
 .bar .btn-block {
-  top: 6px;
-  padding: 7px 0;
+  top: .352941176em;
+  padding: .411764706em 0;
   margin-bottom: 0;
-  font-size: 16px; // Scale down font size to fit in bar.
+  font-size: .941176471em; // Scale down font size to fit in bar.
 }
 
 // Nav buttons (Only applicable within bars)
@@ -180,17 +180,17 @@
 // Buttons inside bars that sit closer against the viewport.
 .bar .btn-nav {
   &.pull-left {
-    margin-left: -5px;
+    margin-left: -294117647em;
 
     .icon-left-nav {
-      margin-right: -3px;
+      margin-right: -.176470588em;
     }
   }
   &.pull-right {
-    margin-right: -5px;
+    margin-right: -.294117647em;
 
     .icon-right-nav {
-      margin-left: -3px;
+      margin-left: -.176470588em;
     }
   }
 }
@@ -203,14 +203,14 @@
   .icon {
     position: relative;
     z-index: 20; // Position the buttons on top of .title
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 24px;
+    padding-top: .588235294em;
+    padding-bottom: .588235294em;
+    font-size: 1.411764706em;
   }
 
   // Vertical center the larger icons in btns.
   .btn .icon {
-    top: 3px;
+    top: .176470588em;
     padding: 0;
   }
 
@@ -220,8 +220,8 @@
 
     // Specific postioning of the caret icon within a title. Used with popover.js.
     &.icon-caret {
-      top: 4px;
-      margin-left: -5px;
+      top: .235294118em;
+      margin-left: -.294117647em;
     }
   }
 }
@@ -232,8 +232,8 @@
 
 // Position/size search bar within the bar
 .bar input[type="search"] {
-  height: 29px;
-  margin: 6px 0;
+  height: 1.705882353em;
+  margin: .352941176em 0;
 }
 
 
@@ -242,6 +242,6 @@
 
 // Position the control correctly inside a bar.
 .bar .segmented-control {
-  top: 7px;
+  top: .411764706em;
   margin: 0 auto;
 }
