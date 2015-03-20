@@ -446,7 +446,7 @@ body {
 .docs-module {
   padding: 20px;
   margin-top: 20px;
-  border: .05882em solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 3px;
 }
 .docs-module .btn-block {
@@ -571,7 +571,7 @@ body {
   width: 100%;
   padding: 3px;
   overflow: hidden;
-  border: .05882em solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 3px;
 }
 .example-wrap .example-title {
@@ -630,8 +630,8 @@ code {
 }
 
 .component-example .bar {
-  border-top: .05882em solid #ddd;
-  border-bottom: .05882em solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 .component-example .bar.bar-header-secondary {
   top: 0 !important;
@@ -999,7 +999,7 @@ hr {
 .platform-ios .btn {
   color: #929292;
   background-color: rgba(247, 247, 247, .98);
-  border: .05882em solid #929292;
+  border: 1px solid #929292;
   -webkit-transition: all;
        -o-transition: all;
           transition: all;
@@ -1017,29 +1017,29 @@ hr {
 .platform-ios .btn-primary {
   color: #fff;
   background-color: #007aff;
-  border: .05882em solid #007aff;
+  border: .1px solid #007aff;
 }
 .platform-ios .btn-primary:active, .platform-ios .btn-primary.active {
   background-color: #0062cc;
-  border: .05882em solid #0062cc;
+  border: .1px solid #0062cc;
 }
 .platform-ios .btn-positive {
   color: #fff;
   background-color: #4cd964;
-  border: .05882em solid #4cd964;
+  border: .1px solid #4cd964;
 }
 .platform-ios .btn-positive:active, .platform-ios .btn-positive.active {
   background-color: #2ac845;
-  border: .05882em solid #2ac845;
+  border: .1px solid #2ac845;
 }
 .platform-ios .btn-negative {
   color: #fff;
   background-color: #dd524d;
-  border: .05882em solid #dd524d;
+  border: .1px solid #dd524d;
 }
 .platform-ios .btn-negative:active, .platform-ios .btn-negative.active {
   background-color: #cf2d28;
-  border: .05882em solid #cf2d28;
+  border: .1px solid #cf2d28;
 }
 .platform-ios .btn-outlined {
   background-color: transparent;
@@ -1187,7 +1187,7 @@ hr {
 .platform-ios .input-group {
   height: 2.352941176em;
   padding: .588235294em .882352941em;
-  border: .05882em solid rgba(0, 0, 0, .2);
+  border: .1px solid rgba(0, 0, 0, .2);
 }
 .platform-ios input[type="search"] {
   height: 2em;
@@ -1232,7 +1232,7 @@ hr {
 }
 .platform-ios .segmented-control {
   background-color: transparent;
-  border: .05882em solid #929292;
+  border: 1px solid #929292;
 }
 .platform-ios .segmented-control .control-item {
   color: #929292;
@@ -1249,7 +1249,7 @@ hr {
   background-color: #929292;
 }
 .platform-ios .segmented-control-primary {
-  border: .05882em solid #007aff;
+  border: 1px solid #007aff;
 }
 .platform-ios .segmented-control-primary .control-item {
   color: #007aff;
@@ -1263,7 +1263,7 @@ hr {
   background-color: #007aff;
 }
 .platform-ios .segmented-control-positive {
-  border: .05882em solid #4cd964;
+  border: 1px solid #4cd964;
 }
 .platform-ios .segmented-control-positive .control-item {
   color: #4cd964;
@@ -1277,7 +1277,7 @@ hr {
   background-color: #4cd964;
 }
 .platform-ios .segmented-control-negative {
-  border: .05882em solid #dd524d;
+  border: 1px solid #dd524d;
 }
 .platform-ios .segmented-control-negative .control-item {
   color: #dd524d;
@@ -1303,7 +1303,7 @@ hr {
           box-shadow: none;
 }
 .platform-ios .popover .bar-nav {
-  border-bottom: .05882em solid rgba(0, 0, 0, .15);
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
 }
 .platform-ios .popover .table-view {
   background-image: none;
@@ -1332,7 +1332,7 @@ hr {
           transition-property:         box-shadow, border;
 }
 .platform-ios .toggle .toggle-handle {
-  border: .05882em solid rgba(0, 0, 0, .2);
+  border: 1px solid rgba(0, 0, 0, .2);
   -webkit-box-shadow: 0 .17647em .17647em rgba(0, 0, 0, .08);
           box-shadow: 0 .17647em .17647em rgba(0, 0, 0, .08);
   -webkit-transition-property: -webkit-transform, border, width;

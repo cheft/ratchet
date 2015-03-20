@@ -63,7 +63,7 @@ a:hover {
 }
 
 abbr[title] {
-  border-bottom: .058823529em dotted;
+  border-bottom: 1px dotted;
 }
 
 b,
@@ -206,7 +206,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   padding: .35em .625em .75em;
   margin: 0 .117647059em;
-  border: .058823529em solid #c0c0c0;
+  border: 1px solid #c0c0c0;
 }
 
 legend {
@@ -379,7 +379,7 @@ p {
   vertical-align: top;
   cursor: pointer;
   background-color: #fff;
-  border: .058823529em solid #ccc;
+  border: 1px solid #ccc;
   border-radius: .176470588em;
 }
 .btn:active, .btn.active {
@@ -393,34 +393,34 @@ p {
 .btn-primary {
   color: #fff;
   background-color: #428bca;
-  border: .05882em solid #428bca;
+  border: 1px solid #428bca;
 }
 .btn-primary:active, .btn-primary.active {
   color: #fff;
   background-color: #3071a9;
-  border: .05882em solid #3071a9;
+  border: 1px solid #3071a9;
 }
 
 .btn-positive {
   color: #fff;
   background-color: #5cb85c;
-  border: .05882em solid #5cb85c;
+  border: 1px solid #5cb85c;
 }
 .btn-positive:active, .btn-positive.active {
   color: #fff;
   background-color: #449d44;
-  border: .05882em solid #449d44;
+  border: 1px solid #449d44;
 }
 
 .btn-negative {
   color: #fff;
   background-color: #d9534f;
-  border: .05882em solid #d9534f;
+  border: 1px solid #d9534f;
 }
 .btn-negative:active, .btn-negative.active {
   color: #fff;
   background-color: #c9302c;
-  border: .05882em solid #c9302c;
+  border: 1px solid #c9302c;
 }
 
 .btn-outlined {
@@ -501,7 +501,7 @@ input[type="button"] {
   padding-right: .58824em;
   padding-left: .58824em;
   background-color: #fff;
-  border-bottom: .05882em solid #ddd;
+  border-bottom: 1px solid #ddd;
 
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -526,7 +526,7 @@ input[type="button"] {
 .bar-footer,
 .bar-footer-secondary,
 .bar-footer-secondary-tab {
-  border-top: .05882em solid #ddd;
+  border-top: 1px solid #ddd;
   border-bottom: 0;
 }
 
@@ -559,7 +559,7 @@ input[type="button"] {
   height: 2.94118em;
   padding: 0;
   table-layout: fixed;
-  border-top: .05882em solid #ddd;
+  border-top: 1px solid #ddd;
   border-bottom: 0;
 }
 .bar-tab .tab-item {
@@ -710,7 +710,7 @@ input[type="button"] {
   margin: .58824em;
   overflow: hidden;
   background-color: #fff;
-  border: .05882em solid #ddd;
+  border: 1px solid #ddd;
   border-radius: .35294em;
 }
 
@@ -739,15 +739,15 @@ input[type="button"] {
   margin-bottom: .882352941em;
   list-style: none;
   background-color: #fff;
-  border-top: .05882em solid #ddd;
-  border-bottom: .05882em solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .table-view-cell {
   position: relative;
   padding: .647058824em 3.823529412em .647058824em .882352941em;
   overflow: hidden;
-  border-bottom: .05882em solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 .table-view-cell:last-child {
   border-bottom: 0;
@@ -776,8 +776,8 @@ input[type="button"] {
   font-weight: 500;
   color: #999;
   background-color: #fafafa;
-  border-top: .05882em solid #ddd;
-  border-bottom: .05882em solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .table-view .media,
@@ -830,7 +830,7 @@ input[type="button"] {
 .table-view-cell > a .push-right > .btn,
 .table-view-cell > a .push-right > .badge,
 .table-view-cell > a .push-right > .toggle {
-  right: 2.058823529em;
+  right: 2.5em;
 }
 
 .content > .table-view:first-child {
@@ -868,7 +868,7 @@ input[type="color"] {
   margin-bottom: .882352941em;
   line-height: 1.23529em;
   background-color: #fff;
-  border: .05882em solid #ddd;
+  border: 1px solid #ddd;
   border-radius: .176470588em;
   outline: none;
 }
@@ -917,7 +917,7 @@ select {
 .input-row {
   height: 2.058823529;
   overflow: hidden;
-  border-bottom: .05882em solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .input-row label {
@@ -943,7 +943,7 @@ select {
   font-size: .705882353em;
   font-weight: 400;
   background-color: #fff;
-  border: .058823529em solid #ccc;
+  border: 1px solid #ccc;
   border-radius: .176470588em;
 }
 .segmented-control .control-item {
@@ -1081,7 +1081,7 @@ select {
 }
 
 .popover .bar-nav {
-  border-bottom: .05882em solid #ddd;
+  border-bottom: 1px solid #ddd;
   border-top-left-radius: .705882353em;
   border-top-right-radius: .705882353em;
   -webkit-box-shadow: none;
@@ -1173,7 +1173,7 @@ select {
   width: 1.647058824em;
   height: 1.647058824em;
   background-color: #fff;
-  border: .058823529em solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 5.882352941em;
   -webkit-transition-duration: .2s;
        -o-transition-duration: .2s;
