@@ -344,8 +344,8 @@ input[type="tel"],
 input[type="color"],
 .input-group {
   height: 2.352941176em;
-  padding: .588235294em .882352941em;
-  border: .1px solid rgba(0, 0, 0, .2);
+  padding: 1.470588235em .882352941em;
+  border: 1px solid rgba(0, 0, 0, .2);
 }
 
 // Rounded search input
@@ -541,7 +541,7 @@ textarea,
   &.active {
     background-color: transparent;
     border: .117647059em solid $positive-color;
-    @include box-shadow(inset 0 0 0 .764705882em $positive-color);
+    @include box-shadow(inset 0 0 0 1em $positive-color);
 
     .toggle-handle {
       @include transform(translate3d(1em,0,0));

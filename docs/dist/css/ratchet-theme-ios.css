@@ -235,8 +235,8 @@ input[type="tel"],
 input[type="color"],
 .input-group {
   height: 2.352941176em;
-  padding: .588235294em .882352941em;
-  border: .1px solid rgba(0, 0, 0, .2);
+  padding: 1.470588235em .882352941em;
+  border: 1px solid rgba(0, 0, 0, .2);
 }
 
 input[type="search"] {
@@ -403,7 +403,7 @@ textarea,
 .toggle.active {
   background-color: transparent;
   border: .11765em solid #4cd964;
-  box-shadow: inset 0 0 0 .76471em #4cd964;
+  box-shadow: inset 0 0 0 1em #4cd964;
 }
 .toggle.active .toggle-handle {
   -webkit-transform: translate3d(1em, 0, 0);

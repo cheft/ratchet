@@ -1186,8 +1186,8 @@ hr {
 .platform-ios input[type="color"],
 .platform-ios .input-group {
   height: 2.352941176em;
-  padding: .588235294em .882352941em;
-  border: .1px solid rgba(0, 0, 0, .2);
+  padding: 1.470588235em .882352941em;
+  border: 1px solid rgba(0, 0, 0, .2);
 }
 .platform-ios input[type="search"] {
   height: 2em;
@@ -1345,8 +1345,8 @@ hr {
 .platform-ios .toggle.active {
   background-color: transparent;
   border: .11765em solid #4cd964;
-  -webkit-box-shadow: inset 0 0 0 .76471em #4cd964;
-          box-shadow: inset 0 0 0 .76471em #4cd964;
+  -webkit-box-shadow: inset 0 0 0 1em #4cd964;
+          box-shadow: inset 0 0 0 1em #4cd964;
 }
 .platform-ios .toggle.active .toggle-handle {
   -webkit-transform: translate3d(1em, 0, 0);

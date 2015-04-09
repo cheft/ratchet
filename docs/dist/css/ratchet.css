@@ -745,7 +745,7 @@ input[type="button"] {
 
 .table-view-cell {
   position: relative;
-  padding: .647058824em 3.823529412em .647058824em .882352941em;
+  padding: .882352941em 3.823529412em .882352941em .882352941em;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
 }
@@ -756,7 +756,7 @@ input[type="button"] {
   position: relative;
   display: block;
   padding: inherit;
-  margin: -.647058824em -3.823529412em -.647058824em -.882352941em;
+  margin: -.882352941em -3.823529412em -.882352941em -.882352941em;
   overflow: hidden;
   color: inherit;
 }
@@ -1157,7 +1157,7 @@ select {
   height: 1.764705882em;
   background-color: #fff;
   border: .117647059em solid #ddd;
-  border-radius: 1.176470588em;
+  border-radius: 1.176470588em !important;
   -webkit-transition-duration: .2s;
        -o-transition-duration: .2s;
           transition-duration: .2s;
@@ -1174,7 +1174,7 @@ select {
   height: 1.647058824em;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 5.882352941em;
+  border-radius: 5.882352941em !important;
   -webkit-transition-duration: .2s;
        -o-transition-duration: .2s;
           transition-duration: .2s;

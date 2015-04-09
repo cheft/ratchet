@@ -9,7 +9,7 @@
   height: 1.764705882em;
   background-color: #fff;
   border: .117647059em solid #ddd;
-  border-radius: 1.176470588em;
+  border-radius: 1.176470588em !important;
   @include transition-property(background-color, border);
   @include transition-duration(.2s);
 
@@ -23,7 +23,7 @@
     height: 1.647058824em;
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 5.882352941em;
+    border-radius: 5.882352941em !important;
     -webkit-transition-property: -webkit-transform, border, width;
        -moz-transition-property: -moz-transform, border, width;
             transition-property: transform, border, width;

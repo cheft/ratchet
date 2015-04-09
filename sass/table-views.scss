@@ -15,7 +15,7 @@
 // Pad each table view item and add dividers
 .table-view-cell {
   position: relative;
-  padding: .647058824em 3.823529412em .647058824em .882352941em;
+  padding: .882352941em 3.823529412em .882352941em .882352941em;
   overflow: hidden;
   border-bottom: $border-default;
 
@@ -28,7 +28,7 @@
     position: relative;
     display: block;
     padding: inherit;
-    margin: -.647058824em -3.823529412em -.647058824em -.882352941em; // Make the entire list item tappable.
+    margin: -.882352941em -3.823529412em -.882352941em -.882352941em; // Make the entire list item tappable.
     overflow: hidden;
     color: inherit;
 
