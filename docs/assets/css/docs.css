@@ -1077,8 +1077,8 @@ hr {
 .platform-ios .bar {
   background-color: rgba(247, 247, 247, .98);
   border-bottom: 0;
-  -webkit-box-shadow: 0 0 .05882em rgba(0, 0, 0, .85);
-          box-shadow: 0 0 .05882em rgba(0, 0, 0, .85);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .85);
+          box-shadow: 0 0 1px rgba(0, 0, 0, .85);
 }
 .platform-ios .bar.bar-header-secondary {
   top: 2.58824em;

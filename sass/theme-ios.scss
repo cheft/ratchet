@@ -182,7 +182,7 @@ p {
 .bar {
   background-color: $chrome-color;
   border-bottom: 0;
-  @include box-shadow(0 0 .058823529em rgba(0,0,0,.85));
+  @include box-shadow(0 0 1px rgba(0,0,0,.85));
 
   // Modifier class to dock any bar below .bar-nav
   &.bar-header-secondary {

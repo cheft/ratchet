@@ -771,7 +771,7 @@ input[type="button"] {
   padding-top: .352941176em;
   padding-bottom: .352941176em;
   padding-left: .882352941em;
-  margin-top: -.058823529em;
+  margin-top: -1px;
   margin-left: 0;
   font-weight: 500;
   color: #999;
@@ -894,8 +894,8 @@ select {
   height: auto;
   font-size: .823529412em;
   background-color: #f8f8f8;
-  -webkit-box-shadow: inset 0 .05882em .05882em rgba(0, 0, 0, .1);
-          box-shadow: inset 0 .05882em .05882em rgba(0, 0, 0, .1);
+  -webkit-box-shadow: inset 1px 1px rgba(0, 0, 0, .1);
+          box-shadow: inset 1px 1px rgba(0, 0, 0, .1);
 }
 
 .input-group {
@@ -915,7 +915,7 @@ select {
 }
 
 .input-row {
-  height: 2.058823529;
+  height: 2.058823529em;
   overflow: hidden;
   border-bottom: 1px solid #ddd;
 }
@@ -1167,8 +1167,8 @@ select {
 }
 .toggle .toggle-handle {
   position: absolute;
-  top: -.058823529em;
-  left: -.058823529em;
+  top: 1px;
+  left: 1px;
   z-index: 2;
   width: 1.647058824em;
   height: 1.647058824em;
